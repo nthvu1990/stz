@@ -231,7 +231,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
     };
 
     mouse_ps2_input_listener: mouse_ps2_input_listener {
-        compatible = "zmk,input-listener";
+        compatible = "zmk,input-listener-ps2";
 	    status = "disabled";
 
         device = <&mouse_ps2>;
